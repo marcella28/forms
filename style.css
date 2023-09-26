@@ -1,0 +1,33 @@
+.tudo{
+    display:flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+    height: auto;
+    width: 800px;
+    gap: 50px; 
+    padding: 50px;
+}
+
+.form{
+    display:flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+    height: 100px;
+    width: 290px;
+    gap: 15px; 
+}
+
+.tabela, th, td{
+    border-collapse: collapse; /*define a separação entre as bordar*/
+    padding: 5px;
+    text-align: left;
+}
+th{
+    background-color: lightgray;
+}
+
+button{
+    border-style: solid;
+    border-width: 3px;
+}
+
